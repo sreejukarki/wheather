@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>my weather apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+    <img width="40vw", height="66vh"src="https://cdn.freebiesupply.com/logos/large/2x/the-weather-channel-1-logo-png-transparent.png">
+            <ul>
+                <li><a href="#">WEATHER APP</a></li>
+                <li><a href="#">Home</a></li>
+             
+               <li>
+               <select name="about this app" id="about this app">
+                 <option value="one1">Different city weather</option>
+                <option value="one3">Kathmandu</option>
+                <option value="one4">Biratnagar</option>
+                <option value="one4">Birgunj</option></select>
+            </li>
+            <li><a href="#">Usage Guide</a></li>
+            <li><input id="city1" type ="text">
+                <button class="btn" id="submit" type="submit">search</button>
+            </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="hh">Weather for<span id="cityName"></span></h1>
+
+        <div class="container">
+            
+            <div class="firstclass">
+                <h2 class="f1">Temperatures</h2>
+                <p>Temperature is <span id="temp"></span></p>
+                <p>Min temperature is <span id="min_temp"></span></p>
+                <p>Max temperature is <span id="max_temp"></span></p>
+            </div>
+        
+        <div class="firstclass1">
+            <h2 class="f2">Humidity Info</h2>
+             <p>cloud PCT is <span id="cloud_pct"></span></p>
+             <p>Feels like<span id="feels_like"></span></p>
+             <p>Humidity is <span id="humidity"></span></p>
+
+        </div>
+        <div class="firstclass2">
+            <h2 class="f3">Wind Info</h2>
+            <p>wind speed is <span id="wind_speed"></span></p>
+            <p>wind Degree is <span id="wind_degrees"></span></p>
+            <p>Sunrise is <span id="sunrise"></span></p>
+            <p>Sunset is <span id="sunset"></span></p>
+        </div>
+    </div>
+    <p class="dd"><b>Weather Of Other Common  Places  </b></p>
+    <div class="container2">
+    
+        <table>
+            <tr>
+                <th></th>
+                <th>Cloud_pct</th>
+                <th>Feels_like</th>
+                <th>Humidity</th>
+                <th>Max_temp</th>
+                <th>Min_temp</th>
+                <th>Sunrise</th>
+                <th>sunset</th>
+                <th>Temp</th>
+                <th>Wind_degree</th>
+                <th>Wind_speed</th>
+            </tr>
+            <tr> 
+               <td>Biratnagar</td>
+                <td id="cloud"></td>
+                <td id="feel"></td>
+                <td id="hum"></td>
+               <td id="max"></td>
+               <td id="min"></td>
+                <td id="sun"></td>
+                <td id="set"></td>
+                 <td id="tem"></td>
+                <td id="wind_d"></td>
+                <td id="wind"></td>
+                
+            </tr>
+            <tr> 
+                <td>Biratnagar</td>
+                 <td id="clou"></td>
+                 <td id="fee"></td>
+                 <td id="hu"></td>
+                <td id="ma"></td>
+                <td id="mi"></td>
+                 <td id="sn"></td>
+                 <td id="st"></td>
+                  <td id="te"></td>
+                 <td id="wind"></td>
+                 <td id="win"></td>
+                 
+             </tr>
+    
+          
+              
+				
+                
+                
+           
+              
+        </table>
+    </div>
+    
+   
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
